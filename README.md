@@ -108,9 +108,9 @@ html,body{width:100%;overflow-x:hidden}body{font-family:'Montserrat',sans-serif;
 <p>Сіздерді асыға күтеміз!</p>
 </footer>
 
-<button id="musicBtn">🎵 Музыканы қосу</button>
+<button id="musicBtn">🎵</button>
 <audio id="bgMusic" loop>
-<source src="Ilhan-vals.mp3" type="audio/mpeg">
+<source src="Ilhan-vals.mp3.mp3" type="audio/mpeg">
 </audio>
 
 <script>
