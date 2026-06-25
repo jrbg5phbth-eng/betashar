@@ -110,7 +110,7 @@ html,body{width:100%;overflow-x:hidden}body{font-family:'Montserrat',sans-serif;
 
 <button id="musicBtn">🎵 Музыканы қосу</button>
 <audio id="bgMusic" loop>
-<source src="Ilhan - Вальс.mp3" type="audio/mpeg">
+<source src="Ilhan-vals.mp3" type="audio/mpeg">
 </audio>
 
 <script>
@@ -127,8 +127,8 @@ document.getElementById("seconds").innerHTML=Math.floor((distance%(1000*60))/100
 const music=document.getElementById("bgMusic");
 const musicBtn=document.getElementById("musicBtn");
 musicBtn.addEventListener("click",()=>{
-if(music.paused){music.play();musicBtn.innerHTML="🔇 Музыканы өшіру";}
-else{music.pause();musicBtn.innerHTML="🎵 Музыканы қосу";}
+if(music.paused){music.play();musicBtn.innerHTML="🔇";}
+else{music.pause();musicBtn.innerHTML="🎵";}
 });
 </script>
 </body>
